@@ -11,7 +11,39 @@ void fizzBizz(int start, int end)
 {
     printf("\nFizzBizz::START: %d, %d\n", start, end);
     
-    // TODO: Your code here!
+    // TODO: void FizzBuzz (int start, int end) {
+   
+    printf ("\nFizzBuzz::START: %d, %d\n", start, end);
+  
+    while (start < end) {
+        
+        if (((start % 3) == 0) && ((start % 5) == 0)) {
+            printf("Fizz \n");
+        } else if ((start % 3) == 0) {
+            printf ("Buzz \n");
+        } else if ((start % 5) == 0) { 
+            printf ("FizzBuzz \n");
+        } else {
+            printf ("%d \n", start);
+        }
+        start = start + 1;
+   
+    }   
+    
+    printf("\nFizzBuzz::END\n");
+}
+
+int main()
+{
+    printf("\n### CESAR School :: Sistemas Digitais :: Coding1 :: FizzBuzz ###\n");
+    
+    FizzBuzz(1, 6);
+    FizzBuzz(1, 16);
+    FizzBuzz(1, 100);
+    
+    return 0;
+}
+Your code here!
     // Ex.: printf("Fizz\n");
     
     printf("\nFizzBizz::END\n");
