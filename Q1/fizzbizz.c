@@ -11,10 +11,6 @@ void fizzBizz(int start, int end)
 {
     printf("\nFizzBizz::START: %d, %d\n", start, end);
     
-    // TODO: void FizzBuzz (int start, int end) {
-   
-    printf ("\nFizzBuzz::START: %d, %d\n", start, end);
-  
     while (start < end) {
         
         if (((start % 3) == 0) && ((start % 5) == 0)) {
